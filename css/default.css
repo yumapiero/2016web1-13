@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+body{
+  background-color: mediumaquamarine;
+}
+
+.center{
+  margin: 0 auto 0 auto;
+  width: 50%;
+}
+
+ul{
+  list-style: none; /* ･を消す */
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  float: left;
+  margin-right: 1%;
+}
+
+.image:after{
+  /* clear-fix */
+  content: ""; 
+  display: block; 
+  clear: both;
+}
